@@ -10,8 +10,8 @@ private:
 
 public:
     Rectangle_WV(double w, double len) : 
-        width{ requirePositiveDimension(w)}, 
-        length{requirePositiveDimension(len)} {}
+        width( requirePositiveDimension(w)), 
+        length( requirePositiveDimension(len)) {}
 
     double getWidth() const { return width; }
     double getLength() const { return length; }
