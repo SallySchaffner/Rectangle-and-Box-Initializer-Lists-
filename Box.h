@@ -9,7 +9,7 @@ protected:
 
 public:
     // Default constructor
-    Box(double w, double len, double h) : Rectangle{ w, len }, height{ h } {}
+    Box(double w, double len, double h) : Rectangle( w, len ), height( h ) {}
 
     double getHeight() const { return height; }
 
