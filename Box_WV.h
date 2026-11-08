@@ -9,8 +9,8 @@ protected:
 
 public:
     Box_WV(double w, double len, double h) : 
-           Rectangle_WV{ w, len }, 
-           height{ requirePositiveDimension(h) } {}
+           Rectangle_WV(w, len), 
+           height( requirePositiveDimension(h) ) {}
 
     double getHeight() const { return height; }
     double getVolume() const { return getArea() * height; }

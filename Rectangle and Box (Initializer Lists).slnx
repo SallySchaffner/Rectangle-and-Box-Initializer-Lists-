@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Rectangle and Box (Initializer Lists).vcxproj" />
+  <Project Path="Rectangle and Box (Initializer Lists).vcxproj" Id="7531c7a6-73aa-4374-9b75-d59d59aa08c7" />
 </Solution>

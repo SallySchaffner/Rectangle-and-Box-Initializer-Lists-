@@ -8,7 +8,7 @@ private:
     double length;
 public:
     
-    Rectangle(double w, double len) : width{ w }, length{ len } {}
+    Rectangle(double w, double len) : width( w ), length( len ) {}
 
     double getWidth() const { return width; }
 
